@@ -9,12 +9,18 @@
     <script type="module" crossorigin src="/film-omdbapi/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/film-omdbapi/assets/vendor-c00b304a.js">
     <link rel="stylesheet" href="/film-omdbapi/assets/vendor-b3ce9496.css">
-    <link rel="stylesheet" href="/film-omdbapi/assets/index-8dc8f67b.css">
+    <link rel="stylesheet" href="/film-omdbapi/assets/index-b31cae9d.css">
   </head>
   <body>
     <form class="search-form">
-      <input name="search" type="text" />
-      <button type="submit">Search</button>
+      <label class="label"> <!-- доб-->
+      <input class="input"
+      name="search" 
+      type="text"
+      placeholder="Search..." 
+      required /> <!-- доб-->
+      </label>  
+      <button class="button"  type="submit">Search</button>
 
     </form>
    <ul class="list">
