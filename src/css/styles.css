@@ -9,8 +9,8 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: lightgray;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/41294/hero.jpg) no-repeat center center fixed;
+  
+  
   background-size: cover;
 }
 
@@ -27,6 +27,11 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px;
 }
 
 :root {
@@ -122,4 +127,5 @@ border: #4e75ff;
     flex-wrap: wrap;
     gap: 24px;
   
+    
 }
